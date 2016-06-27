@@ -1,0 +1,71 @@
+#contact {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#contactinfo {
+	background-color:black;
+	opacity:0.65;
+	width:95%;
+	margin: 0;
+	height:70%;
+	transition: opacity 0.37s ease-in-out;
+	border-radius: 5px;
+}
+
+	#contactinfo:hover {
+		opacity: 0.95;
+	}
+
+#con-title {
+	width: 100%;
+	height: 15%;
+	float: left;
+	clear: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#con-title h1 {
+	font-family: Fixed, monospace;
+	font-variant: normal;
+	font-stretch: normal;
+	font-weight: normal;
+	font-size: 2.3vw;
+	color:dodgerblue;
+	text-align: center;
+	margin: 0;
+}
+
+#con-info {
+	padding: 5% 0 0 3%;
+	float: left;
+	width: 47%;
+	height: 75%;
+}
+
+#con-info p {
+	font-family: "Courier", monospace;
+	font-size: 1.4vw;
+	color:antiquewhite;
+	text-align:left;
+}
+
+#con-img {
+	padding: 5% 3% 0 0;
+	float: left;
+	width: 47%;
+	height: 75%;
+}
+
+#picture {
+	height: 60%;
+	width: 70%;
+	float: right;
+}

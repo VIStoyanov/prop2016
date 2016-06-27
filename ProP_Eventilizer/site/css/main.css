@@ -1,0 +1,246 @@
+@charset 'UTF-8';
+
+body, html, #main_container {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	background-image: url(../pics/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Consolas,monaco,monospace;
+}
+
+#nav-bar {
+	height: 95vh;
+	width: 17vw;
+	float: left;
+	background-color: dodgerblue;
+	opacity: 0.9;
+}
+
+#content {
+	height: 95vh;
+	width: 83vw;
+	float: left;
+}
+
+#footer {
+	width: 100vw;
+	height: 4.85vh;
+	float: left;
+	clear: left;
+	background-color: #000;
+	opacity: .9;
+	border-top: 2px solid #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#heading {
+	height: 9.5vh;
+	width: 83vw;
+	background-color: #000;
+	opacity: .75;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-bottom: 2px solid #fff;
+	align-items: center;
+}
+
+#page-content {
+	height: 85.5vh;
+	width: 83vw;
+}
+
+#price {
+	height: 85vh;
+	width: 30vw;
+	float: left;
+}
+
+#logo {
+	width: 100%
+	height: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#logo img {
+	max-width: 60%;
+	max-height: 60%;
+}
+
+#navigation {
+	height: 75%;
+	width: 100%;
+	margin: 0;
+	padding: 20% 0 0 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+}
+
+.style {
+	width: 100%;
+	height: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-decoration: none;
+	color: #fff;
+
+	background: linear-gradient(dodgerblue, dodgerblue 50%, white 50%, white);
+	background-size: 100% 202%;
+	transition: all 0.3s ease;
+	animation:  0.4s ease;
+}
+
+.style:hover {
+	opacity: 1.0;
+	background-position: 100% 100%;
+	color: dodgerblue;
+	animation:  0.4s ease;
+}
+
+#navigation li{
+	text-align: center;
+	font-size: 2vw;
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+.current {
+	background-color: #fff;
+	color: dodgerblue;
+}
+
+footer p {
+	font-size: 1vw;
+	font-family: Consolas,monaco,monospace;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+}
+
+#heading img {
+	margin: 0;
+	text-align: center;
+	width: 90%;
+	height: 90%;
+}
+
+#remove {
+	width: 100%;
+	height: 100%;
+}
+
+.dropdown-content {
+	display: none;
+	background-color: white;
+	width: 17vw;
+	height: 10vh;
+	position: absolute;
+}
+.dropdown-content a {
+	width: 100%;
+	height: 50%;
+	align-items: center;
+	font-size: 1.5vw;
+}
+
+#dropdown {
+	cursor: pointer;
+	width: 100%;
+	height: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-decoration: none;
+	color: #fff;
+
+	background: linear-gradient(dodgerblue, dodgerblue 50%, white 50%, white);
+	background-size: 100% 202%;
+	transition: all 0.3s ease;
+	animation:  0.4s ease;
+}
+
+#dropdown:hover {
+	opacity: 1.0;
+	background-position: 100% 100%;
+	color: dodgerblue;
+	animation:  0.4s ease;
+}
+
+#dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.hidden {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-decoration: none;
+	color: #fff;
+
+	background: linear-gradient(dodgerblue, dodgerblue 50%, white 50%, white);
+	background-size: 100% 202%;
+	transition: all 0.3s ease;
+	animation:  0.4s ease;
+}
+
+.hidden:hover {
+	opacity: 1.0;
+	background-position: 100% 100%;
+	color: dodgerblue;
+	animation:  0.4s ease;
+}
+
+#clock {
+	width: 90%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+	background-color: #000;
+	border-radius: 50px;
+}
+
+#clock h1 {
+	color: dodgerblue;
+	font-size: 3em;
+	display: inline-block;
+}
+
+#clock p {
+	color: #00EA00;
+	font-size: 1em;
+	display: inline-block;
+}
+
+#clock span {
+	color: #00EA00;
+	font-size: 3em;
+	display: inline-block;
+	font-family: "Lucida Console";
+}
+
+.align {
+	width: 100%;
+	height: 100%;	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

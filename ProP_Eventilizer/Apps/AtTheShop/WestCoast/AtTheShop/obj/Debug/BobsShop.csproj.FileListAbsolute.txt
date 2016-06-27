@@ -1,0 +1,6 @@
+C:\Users\Ico\Desktop\ProP\Apps\ProP_GUIs\AtTheShop\BobsShop\AtTheShop\bin\Debug\AtTheShop.exe.config
+C:\Users\Ico\Desktop\ProP\Apps\ProP_GUIs\AtTheShop\BobsShop\AtTheShop\obj\Debug\AtTheShop.exe
+C:\Users\Ico\Desktop\ProP\Apps\ProP_GUIs\AtTheShop\BobsShop\AtTheShop\obj\Debug\AtTheShop.pdb
+C:\Users\Ico\Desktop\ProP\Apps\ProP_GUIs\AtTheShop\WestCoast\AtTheShop\bin\Debug\AtTheShop.exe.config
+C:\Users\Ico\Desktop\ProP\Apps\ProP_GUIs\AtTheShop\WestCoast\AtTheShop\obj\Debug\AtTheShop.exe
+C:\Users\Ico\Desktop\ProP\Apps\ProP_GUIs\AtTheShop\WestCoast\AtTheShop\obj\Debug\AtTheShop.pdb

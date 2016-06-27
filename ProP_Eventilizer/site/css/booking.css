@@ -1,0 +1,168 @@
+@charset 'UTF-8';
+#purchase {
+    height: 100%;
+    width: 100%;
+}
+.ticket, .camping {
+    height: 90%;
+    width: 50%;
+    float: left;
+    background-color: #fff;
+    opacity: .9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buy {
+    width: 100%;
+    height: 10%;
+    float: left;
+    clear: left;
+    background-color: #fff;
+    opacity: .9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#btn {
+    cursor: pointer;
+    width: 12%;
+    height: 60%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: #fff;
+    font-size: 1.5vw;
+}
+.display {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+}
+.hide {
+    display: none;
+}
+.camp-pic {
+    background-color: #000;
+    position: absolute;
+    z-index: +1;
+    width: 83%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.camp-pic img {
+    width: 70%;
+    height: 80%;
+}
+
+#box1, #box2 {
+    width: 95%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+#box1 {
+    background-color: dodgerblue;
+    opacity: .8;
+    border-radius: 40px;
+}
+
+#box2 {
+    background-color: #00EA00;
+    opacity: .8;
+    border-radius: 40px;
+    padding-top: 15px; 
+}
+
+#box2 label {
+    margin-bottom: 25px;
+}
+
+#box1 input {
+    font-size: 1.15em;
+}
+
+#select {
+    font-size: 1.15em;
+    width: 35%;
+}
+
+.noKur {
+    width: 95%;
+    height: 81.5%;
+    border-radius: 40px;
+    background-color: #000;
+    opacity: .8;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket h1 {
+    margin-bottom: 7%;
+}
+
+#box2 a {
+    color: blue;
+}
+
+.noKur label {
+    color: #00EA00;
+    font-size: 1.5em;
+    margin-top: 1.6%;
+}
+
+.noKur h1 {
+    margin: 1% 0;
+}
+
+#total {
+    font-size: 3em;
+    color: #00EA00;
+}
+
+#total span {
+    color: red;
+}
+
+.dialog {
+    display: none;
+}
+
+#camp-style {
+    color: #00EA00;
+    margin: 1% 0;
+    font-size: 2.5em;
+}
+
+.includes, .camp-price {
+    list-style: none;
+    font-size: 1.2em;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.noKur ul {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topSpace {
+    padding-top: 5%;
+}
